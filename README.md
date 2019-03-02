@@ -52,9 +52,27 @@ Build will be located at: ./build/bootloader.bin
 2. Plug ESP32 into computer
 
 ![alt text](https://cdn.instructables.com/FOL/YWLI/JEOILQ5U/FOLYWLIJEOILQ5U.LARGE.jpg "ESP32 Dev Kit Pinout")
-
+Image: https://cdn.instructables.com/FOL/YWLI/JEOILQ5U/FOLYWLIJEOILQ5U.LARGE.jpg
 
 
 ### Flash
 
 While still in the nodemcu-firmware-esp32 directory: sudo make flash
+
+## My Build
+
+Changes to my build from default:
+
+* 240Hz CPU Clock
+* ADC
+* Bluetooth
+* Bluetooth HCI
+* DAC
+* LEDC
+* time
+* Lua Debug
+
+## Helpful References
+* https://nodemcu.readthedocs.io/en/dev-esp32/build/
+* https://nodemcu.readthedocs.io/en/dev-esp32/flash/
+* https://docs.espressif.com/projects/esp-idf/en/latest/get-started/index.html
